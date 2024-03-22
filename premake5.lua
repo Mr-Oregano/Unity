@@ -2,8 +2,8 @@
 project "Unity"
     kind "StaticLib"
 
-    targetdir "%{prj.location}/bin/"
-    objdir "%{prj.location}/bin-int/"
+    targetdir "%{prj.location}/build/"
+    objdir "%{prj.location}/builddir/"
 
     includedirs {
         "src"
